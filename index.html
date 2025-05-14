@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>نظام حجز الشاليه</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>حجوزات الشاليه</h1>
+  <div class="calendar-controls">
+    <button id="prevMonth">الشهر السابق</button>
+    <h2 id="monthYear"></h2>
+    <button id="nextMonth">الشهر التالي</button>
+  </div>
+  <div id="calendar"></div>
+
+  <!-- مكتبة Luxon -->
+  <script src="libs/luxon.min.js"></script>
+  <!-- سكربت التقويم -->
+  <script src="main.js"></script>
+</body>
+</html>
